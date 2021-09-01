@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인천투어</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/incheon-tour.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/incheon.js"></script> -->
+</head>
+<body>
+    <!-- skip menu -->
+    <div class="skip">
+        <a href="#nav">메인메뉴 바로가기</a>
+        <a href="#container">본문 바로가기</a>
+    </div>
+    <!-- 1.header -->
+    <header class="clearFix">
+        <div class="center clearFix">
+            <h1 class="logo"><a href="index.html"><img src="images/itour_logo.png" alt="incheontour-logo"></a></h1>
+            <ul id="nav">
+                <li>
+                    <a href="#">인천탐험</a>
+                    <ul class="sub">
+                        <li><a href="#">인천의 열 두달</a></li>
+                        <li><a href="#">힐링, 인천여행</a></li>
+                        <li><a href="#">히든스타, 인천</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">관광</a>
+                    <ul class="sub">
+                        <li><a href="#">역사</a></li>
+                        <li><a href="#">레저</a></li>
+                        <li><a href="#">테마</a></li>
+                        <li><a href="#">체험</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">음식</a>
+                    <ul class="sub">
+                        <li><a href="#">모범음식점</a></li>
+                        <li><a href="#">외국인이용편리음식</a></li>
+                        <li><a href="#">음식문화거리</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">쇼핑</a>
+                    <ul class="sub">
+                        <li><a href="#">백화점/대형쇼핑몰</a></li>
+                        <li><a href="#">테마쇼핑</a></li>
+                        <li><a href="#">전통시장</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">숙박</a>
+                    <ul class="sub">
+                        <li><a href="#">관광호텔</a></li>
+                        <li><a href="#">펜션</a></li>
+                        <li><a href="#">게스트하우스</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="gnb">
+                <li><a href="#">검색</a></li>
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="#">언어</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- 2.#mainBanner -->
+    <div id="mainBanner">
+        <ul class="banner clearFix">
+            <li class="b1"><a href="#"><img src="images/banner01.jpg" alt="banner1은 송도 이미지입니다"></a></li>
+            <li class="b2"><a href="#"><img src="images/banner02.jpg" alt="banner2는 개항장 이미지입니다"></a></li>
+            <li class="b3"><a href="#"><img src="images/banner03.jpg" alt="banner3은 인천대교 야경 이미지입니다"></a></li>
+        </ul>
+        <div class="textBox">
+            <span>ALL WAYS INCHEON</span><br>
+            <span>인천에서 만나는 다양한 여행지</span>
+        </div>
+        <div class="center clearFix">
+            <ul class="pager">
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 3.#container -->
+    <section id="container">
+        <h2 class="blind">인기여행지, 테마여행, 영상, 관공소식,sns인천여행에 관한 정보를 담고 있는 부분</h2>
+        <!-- 인기여행지 -->
+        <section class="hotWrap clearFix">
+            <div class="center">
+                <h3 class="title">인기여행지</h3>
+                <ul class="hot">
+                    <li>
+                        <a href="#">
+                            <div>
+                                <img src="images/img-hot01.jpg" alt="Popular destination open port area">
+                                <div class="bkBox"></div>
+                                <div class="box"><p>근대역사와 문화의 만남</p><span>근대화가 시작된 개항장 누리길</span><br><span>보러가기 →</span></div>
+                            </div>
+                            <p class="hotText">개항장</p>
+                        </a>
+                    </li>
+                    <li><a href="#">
+                        <div>
+                            <img src="images/img-hot02.jpg" alt="Popular destination Songdo">
+                            <div class="bkBox"></div>
+                            <div class="box"><p>다채로운 도시컬러</p><span>즐길거리가 가득한 미래도시 송도</span><br><span>보러가기 →</span></div>
+                        </div>
+                        <p class="hotText">송도</p>
+                    </a></li>
+                    <li><a href="#">
+                        <div>
+                            <img src="images/img-hot03.jpg" alt="Popular destination Wolmido">
+                            <div class="bkBox"></div>
+                            <div class="box"><p>추억과 즐거움이 있는 바다</p><span>끝없이 펼쳐진 바다를 따라 산책하는 월미도</span><br><span>보러가기 →</span></div>
+                        </div>
+                        <p class="hotText">월미도</p>
+                    </a></li>
+                    <li><a href="#">
+                        <div>
+                            <img src="images/img-hot04.jpg" alt="Popular destination Ganghwa">
+                            <div class="bkBox"></div>
+                            <div class="box"><p>선사시대와 근형대사를 담은 역사현장</p><span>섬이 주는 바다의 향과 바람을 느끼는 강화</span><br><span>보러가기 →</span></div>
+                        </div>
+                        <p class="hotText">강화</p>
+                    </a></li>
+                    <li><a href="#">
+                        <div>
+                            <img src="images/img-hot05.jpg" alt="Popular destination Yeongjongdo">
+                            <div class="bkBox"></div>
+                            <div class="box"><p>하늘길로 향하는 여행</p><span>섬이 가진 여유로움을 간직한 영종도</span><br><span>보러가기 →</span></div>
+                        </div>
+                        <p class="hotText">영종도</p>
+                    </a></li>
+                </ul>
+            </div>
+            <ul class="conBtn">
+                <li><a href="#"><i class="icon-it_left"></i></a></li>
+                <li><a href="#"><i class="icon-it_right"></i></a></li>
+            </ul>
+        </section>
+        <!-- 테마여행 -->
+        <section class="themeWrap center">
+            <h3 class="title">테마여행</h3>
+            <ul class="themeTitle clearFix">
+                <li class="active">
+                    <a href="#">
+                        <span>클라스가 남다른</span>
+                        <span>레저 여행</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>여행의 목적은 단 하나</span>
+                        <span>식도락 여행</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>열심히 방콕한 당신</span>
+                        <span>힐링 여행</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>사랑하는 아이와 함께</span>
+                        <span>어린이 여행</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="themeBoxWrap clearFix">
+                <div class="themeImg leisure">
+                    <ul>
+                        <li class="active"><a href="#">강화루지</a></li>
+                        <li><a href="#">강화짚라인</a></li>
+                        <li><a href="#">월미테마파크</a></li>
+                    </ul>
+                    <div class="themeText">
+                        <div class="active">
+                            <p>가족이 함께 즐길 수 있는 루지</p>
+                            <span>아이들이 마음 편히 뛰어 놀수 있는 강화에서 즐겨보세요.</span>
+                        </div>
+                        <div>
+                            <p>강화도의 하늘을 가르는 짚라인</p>
+                            <span>일상에 지친 여러분의 스트레스를 날려보세요.</span>
+                        </div>
+                        <div>
+                            <p>스릴 가득한 월미테마파크</p>
+                            <span>어른아이 구분 없이 동심의 세계로 빠져보세요.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="themeImg food">
+                    <ul>
+                        <li class="active"><a href="#">카페 발로</a></li>
+                        <li><a href="#">피에스타</a></li>
+                        <li><a href="#">풍미</a></li>
+                    </ul>
+                    <div class="themeText">
+                        <div>
+                            <p>빈티지가구와 소품이 가득한 카페발로</p>
+                            <span>인천의 대표적인 도시재생공간에서 인생사진을 건져보세요.</span>
+                        </div>
+                        <div>
+                            <p>송도의 해산물뷔페 전문점 피에스타</p>
+                            <span>전면유리 밖으로 보이는 송도의 풍경을 보며 식사를 즐겨보세요.</span>
+                        </div>
+                        <div>
+                            <p>5대째 내려오는 원조 중국집 풍미</p>
+                            <span>차이나타운에서 가장 오래된 풍미에서 진짜 중국음식을 맛보세요.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="themeImg healing">
+                    <ul>
+                        <li class="active"><a href="#">송도 센트럴파크</a></li>
+                        <li><a href="#">석모도 미네랄온천</a></li>
+                        <li><a href="#">파라다이스시티</a></li>
+                    </ul>
+                    <div class="themeText">
+                        <div>
+                            <p>도심속 시민의 낙원 센트럴파크</p>
+                            <span>5개의 테마로 조성된 센트럴파크에서 도심속 힐링을 느껴보세요.</span>
+                        </div>
+                        <div>
+                            <p>아름다운 뷰를 보며 즐기는 온천</p>
+                            <span>색다른 정취를 느끼며 몸과 마음에 안정을 취해보세요.</span>
+                        </div>
+                        <div>
+                            <p>감각적인 힐링을 경험할 수 있는 파라다이스시티</p>
+                            <span>고품격 힐링스파에서 여유롭게 힐링해보세요.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="themeImg child">
+                    <ul>
+                        <li class="active"><a href="#">송월동 동화마을</a></li>
+                        <li><a href="#">인천 어린이과학관</a></li>
+                        <li><a href="#">파라다이스시티(원더박스)</a></li>
+                    </ul>
+                    <div class="themeText">
+                        <div>
+                            <p>벚꽃이 아름다운 송월동 동화마을</p>
+                            <span>세계명작동화를 테마로 한 그림과 조형물에서 사진을 찍어보세요.</span>
+                        </div>
+                        <div>
+                            <p>국내 최초의 어린이 전문 과학관인 인천 어린이 과학관</p>
+                            <span>아이들과 놀이체험을 통해 창의적인 과학을 접해보세요.</span>
+                        </div>
+                        <div>
+                            <p>실내형 패밀리 엔터테인먼트 테마파크 원더박스</p>
+                            <span>다양한 어트랙션과 게임으로 온 가족이 즐거운 시간을 보내보세요.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- 비디오 -->
+        <section class="video clearFix">
+            <h3 class="blind">영상으로 보는 인천투어</h3>
+                <div>
+                    <div>
+                        <span>영상으로 보는 </span><span>생생한 인천투어</span>
+                    </div>
+                    <span>인천시의 생생한 소식, 재미와 감동을 전합니다.</span>
+                </div>
+                <video src="video/Incheon_promotional_video.mp4" controls autoplay muted loop playsinline>인천광고영상_랜드마크편_30초</video>  
+        </section>
+        <!-- 관광소식 -->
+        <section class="news clearFix">
+            <h3 class="title">관광소식</h3>
+            <div class="center">
+                <ul class="newsList clearFix">
+                        <li><a href="#">2021년 인천관광스타트업 공모 안내</a><span>2021.02.22</span></li>
+                        <li><a href="#">관광사업체 재난지원금 신청 안내</a><span>2021.01.22</span></li>
+                        <li><a href="#">해넘이 해맞이 명소 폐쇄 안내</a><span>2020.12.29</span></li>
+                        <li><a href="#">전국 연말연시 방역강화 조치 시행</a><span>2020.12.23</span></li>
+                        <li><a href="#">사회적 거리두기 단계별 안전여행 수칙</a><span>2020.12.18</span></li>
+                        <li><a href="#">월미바다열차 임시휴업</a><span>2020.12.14</span></li>
+                </ul>
+                <div>
+                    <a href="#"><i class="icon-plus-circled"></i></a>
+                </div>
+            </div>
+            <div class="newsBox">
+                <div class="center">
+                    <ul class="newsIcon">
+                        <li><a href="#"><i class="icon-it_map"></i><span>관광안내지도</span></a></li>
+                        <li><a href="#"><i class="icon-it_info"></i><span>관광안내소</span></a></li>
+                        <li><a href="#"><i class="icon-it_island"></i><span>인천의 섬</span></a></li>
+                        <li><a href="#"><i class="icon-it_vr"></i><span>VR인천관광</span></a></li>
+                        <li><a href="#"><i class="icon-it_guide"></i><span>문화관광해설사&관광모니터</span></a></li>
+                        <li><a href="#"><i class="icon-it_bag"></i><span>다달이 인천여행</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- sns인천여행 -->
+        <section class="sns center">
+            <h3 class="title">SNS 인천여행</h3>
+            <ul class="snsList clearFix">
+                <li>
+                    <a href="#">
+                        <img src="images/sns01.jpg" alt="개항로통닭">
+                        <div class="snsBox">
+                            <p>인천 뉴트로 1번지<br><span>개항로거리의 개항로 통닭</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/sns02.jpg" alt="송도센트럴파크">
+                        <div class="snsBox">
+                            <p>국내최초 바닷물을 이용한 해수공원<br><span>송도 센트럴파크</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/sns03.jpg" alt="무의도환상의길">
+                        <div class="snsBox">
+                            <p>노을이 아름답기로 소문난<br><span>무의도 환상의 길</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/sns04.jpg" alt="월미바다열차">
+                        <div class="snsBox">
+                            <p>풍경이 다르니 재미도 새로운<br><span>월미바다열차</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/sns05.jpg" alt="한옥카페오프닝포트">
+                        <div class="snsBox">
+                            <p>고즈넉하고 분위기가 좋은<br><span>한옥카페 오프닝포트</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/sns06.jpg" alt="인천빵지순례">
+                        <div class="snsBox">
+                            <p>노릇노릇 후각을 자극하는<br><span>인천 빵지순례</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/sns07.jpg" alt="반려견동반여행펜션">
+                        <div class="snsBox">
+                            <p>댕댕이와 함께하는<br><span>반려견 동반 여행 펜션</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/sns08.jpg" alt="종교투어">
+                        <div class="snsBox">
+                            <p>인천에서 찾아보는<br><span>종교투어</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/sns09.jpg" alt="동인천역탐방">
+                        <div class="snsBox">
+                            <p>기차테마거리 축현역을 엿보는<br>
+                                <span>동인천역 탐방</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/sns10.jpg" alt="인천나비공원">
+                        <div class="snsBox">
+                            <p>도심 속 생태학습장<br>
+                                <span>인천나비공원</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/sns11.jpg" alt="왕산마리나요트체험">
+                        <div class="snsBox">
+                            <p>영종도의 숨은 일몰 명소에서<br>
+                                <span>왕산마리나 요트 체험</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/sns12.jpg" alt="랜드마크새우타워">
+                        <div class="snsBox">
+                            <p>연간 3000만 명이 찾는 소래포구<br>
+                                <span>새 랜드마크 새우타워</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/sns13.jpg" alt="소무의도 차박&트래킹">
+                        <div class="snsBox">
+                            <p>별이 쏟아지는 감성 차박 성지<br>
+                                <span>소무의도 차박&트래킹</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/sns14.jpg" alt="돈까스,제육볶음,국밥">
+                        <div class="snsBox">
+                            <p>남자의 3대 소울푸드 랜선투어<br>
+                                <span>돈까스, 제육볶음, 국밥</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/sns15.jpg" alt="씨사이드파크">
+                        <div class="snsBox">
+                            <p>선명한 태양의 얼굴, 일출 명소<br>
+                                <span>씨사이드파크</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/sns16.jpg" alt="신석체육공원">
+                        <div class="snsBox">
+                            <p>인천 랜선 연분홍 벚꽃길<br>
+                                <span>신석체육공원</span></p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <ul class="pager clearFix">
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+            </ul>
+            <ul class="snsMore clearFix">
+                <li><a href="#"><img src="images/sns_ico_b.png" alt="blog"></a></li>
+                <li><a href="#"><img src="images/sns_ico_f.png" alt="facebook"></a></li>
+                <li><a href="#"><img src="images/sns_ico_i.png" alt="instagram"></a></li>
+                <li><a href="#"><img src="images/sns_ico_y.png" alt="youtube"></a></li>
+            </ul>
+        </section>
+    </section>
+    <!-- 4.footer -->
+    <footer>
+        <div class="footTop clearFix">
+            <div class="center">
+                <ul class="footMenu">
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">저작권보호정책</a></li>
+                    <li><a href="#">이용정보</a></li>
+                </ul>
+                <ul class="tel">
+                    <li><a href="#">관광통역안내전화<span>1330</span></a></li>
+                    <li><a href="#">인천종합관광안내소<span>032.832.3031</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footBottom clearFix">
+            <div class="center">
+                <p class="footLogo"><img src="images/footer_logo.png" alt="인천투어로고"></p>
+                <div class="text">
+                    <address>[21554]인천광역시 남동구 정각로29(구월동) TEL:(032)120</address>
+                    <small>본 홈페이지에 게시되는 이메일주소 자동수집을 거부하며 이를 위반 시 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.</small>
+                    <small>COPYRIGHT(c) 2018 Incheon Metropolitan City. ALL RIGHTS RESERVED.</small>
+                </div>  
+                <ul class="fam">
+                    <li><a href="#"><img src="images/wa_2021.jpg" alt="한국웹접근성평가센터 인증현황바로가기"></a></li>
+                    <li><a href="#"><img src="images/foot_img2.jpg" alt="OPEN_API_바로가기"></a></li>
+                    <li><a href="#"><img src="images/foot_img3.jpg" alt="바로가기_QR코드"></a></li>
+                </ul>
+            </div>
+        </div>
+        <a href="#">
+            <span>TOP</span>
+            <!-- <i class="icon-up-circled2"></i> -->
+        </a>
+        
+    </footer>
+</body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>인천투어 로그인</title>
+    <link rel="stylesheet" href="css/incheon-tour.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+    <!-- skip menu -->
+    <div class="skip">
+        <a href="#nav">메인메뉴 바로가기</a>
+        <a href="#container">본문 바로가기</a>
+    </div>
+    <!-- 1.header -->
+    <header>
+        <div class="center clearFix">
+            <h1 class="logo"><a href="index.html"><img src="images/i_logo.png" alt="incheontour-logo"></a></h1>
+            <ul id="nav">
+                <li>
+                    <a href="#">인천탐험</a>
+                    <ul class="sub">
+                        <li><a href="#">인천의 열 두달</a></li>
+                        <li><a href="#">힐링, 인천여행</a></li>
+                        <li><a href="#">히든스타, 인천</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">관광</a>
+                    <ul class="sub">
+                        <li><a href="#">역사</a></li>
+                        <li><a href="#">레저</a></li>
+                        <li><a href="#">테마</a></li>
+                        <li><a href="#">체험</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">음식</a>
+                    <ul class="sub">
+                        <li><a href="#">모범음식점</a></li>
+                        <li><a href="#">외국인이용편리음식</a></li>
+                        <li><a href="#">음식문화거리</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">쇼핑</a>
+                    <ul class="sub">
+                        <li><a href="#">백화점/대형쇼핑몰</a></li>
+                        <li><a href="#">테마쇼핑</a></li>
+                        <li><a href="#">전통시장</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">숙박</a>
+                    <ul class="sub">
+                        <li><a href="#">관광호텔</a></li>
+                        <li><a href="#">펜션</a></li>
+                        <li><a href="#">게스트하우스</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="gnb">
+                <li><a href="#">검색</a></li>
+                <li><a href="login.html">로그인</a></li>
+                <li><a href="#">언어</a></li>
+            </ul>
+        </div>
+    </header>
+    <!-- 2. #container -->
+    <section id="container">
+        <h2 class="blind">인천투어 로그인</h2>
+        <section class="loginWrap">
+            <h3 class="title">LOGIN</h3>
+            <form action="myLogin" method="POST" id="loginForm">
+                <input type="text" name="username" id="username-field" class="login-form-field" placeholder="아이디"><br>
+                <input type="password" name="password" id="password-field" class="login-form-field"
+                    placeholder="비밀번호"><br>
+                <input type="submit" value="LOGIN" id="login-form-submit">
+            </form>
+            <h4 class="easyTitle">간편 로그인</h4>
+            <ul class="easyLogin">
+                <li><a href="#"><img src="images/naver-login.png" alt="네이버로 로그인하기"></a></li>
+                <li><a href="#"><img src="images/kakao-login.png" alt="카카오로 로그인하기"></a></li>
+                <li><a href="#"><img src="images/facebook-login.png" alt="페이스북으로 로그인하기"></a></li>
+                <li><a href="#"><img src="images/google-login.png" alt="구글로 로그인하기"></a></li>
+            </ul>
+            <ul class="other">
+                <li><a href="join.html">회원가입</a></li>
+                <li><a href="#">아이디 찾기</a></li>
+                <li><a href="#">비밀번호 찾기</a></li>
+            </ul>
+        </section>
+    </section>
+    <!-- 3.footer -->
+    <footer>
+        <div class="footTop clearFix">
+            <div class="center">
+                <ul class="footMenu">
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">저작권보호정책</a></li>
+                    <li><a href="#">이용정보</a></li>
+                </ul>
+                <ul class="tel">
+                    <li><a href="#">관광통역안내전화<span>1330</span></a></li>
+                    <li><a href="#">인천종합관광안내소<span>032.832.3031</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footBottom clearFix">
+            <div class="center">
+                <p class="footLogo"><img src="images/footer_logo.png" alt="인천투어로고"></p>
+                <div class="text">
+                    <address>[21554]인천광역시 남동구 정각로29(구월동) TEL:(032)120</address>
+                    <small>본 홈페이지에 게시되는 이메일주소 자동수집을 거부하며 이를 위반 시 정보통신망법에 의해 처벌됨을 유념하시기 바랍니다.</small>
+                    <small>COPYRIGHT(c) 2018 Incheon Metropolitan City. ALL RIGHTS RESERVED.</small>
+                </div>
+                <ul class="fam">
+                    <li><a href="#"><img src="images/wa_2021.jpg" alt="한국웹접근성평가센터 인증현황바로가기"></a></li>
+                    <li><a href="#"><img src="images/foot_img2.jpg" alt="OPEN_API_바로가기"></a></li>
+                    <li><a href="#"><img src="images/foot_img3.jpg" alt="바로가기_QR코드"></a></li>
+                </ul>
+            </div>
+        </div>
+        <a href="#">
+            <span>TOP</span>
+            <!-- <i class="icon-up-circled2"></i> -->
+        </a>
+    </footer>
+</body>
+
+</html>

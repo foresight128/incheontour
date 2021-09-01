@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'incheon-tour';
+  src: url('../font/incheon-tour.eot?27627379');
+  src: url('../font/incheon-tour.eot?27627379#iefix') format('embedded-opentype'),
+       url('../font/incheon-tour.woff2?27627379') format('woff2'),
+       url('../font/incheon-tour.woff?27627379') format('woff'),
+       url('../font/incheon-tour.ttf?27627379') format('truetype'),
+       url('../font/incheon-tour.svg?27627379#incheon-tour') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'incheon-tour';
+    src: url('../font/incheon-tour.svg?27627379#incheon-tour') format('svg');
+  }
+}
+*/
+ 
+ [class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "incheon-tour";
+  font-style: normal;
+  font-weight: normal;
+  speak: never;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-plus-circled:before { content: '\e800'; } /* '' */
+.icon-it_bag:before { content: '\e801'; } /* '' */
+.icon-it_guide:before { content: '\e802'; } /* '' */
+.icon-it_info:before { content: '\e803'; } /* '' */
+.icon-it_island:before { content: '\e804'; } /* '' */
+.icon-it_vr:before { content: '\e805'; } /* '' */
+.icon-it_map:before { content: '\e806'; } /* '' */
+.icon-check:before { content: '\e807'; } /* '' */
+.icon-it_left:before { content: '\e808'; } /* '' */
+.icon-it_user:before { content: '\e809'; } /* '' */
+.icon-up-circled2:before { content: '\e80a'; } /* '' */
+.icon-search-1:before { content: '\e80b'; } /* '' */
+.icon-it_right:before { content: '\e80c'; } /* '' */
+.icon-it_lang:before { content: '\e80d'; } /* '' */
+.icon-it_search:before { content: '\e80e'; } /* '' */
+.icon-check-empty:before { content: '\f096'; } /* '' */
